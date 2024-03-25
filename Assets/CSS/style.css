@@ -6,7 +6,20 @@ a {
     font-family: 'Vazirmatn', sans-serif !important;
 }
 
+/* Add Header */
+header {
+    animation: fadeIn 1.3s ease forwards;
+}
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+
 /* Add Menu */
+.menu{
+    opacity: 0;
+    transition: opacity 1.3s ease;
+}
+.fade-in{
+    opacity: 1;
+}
 .menu a {
     width: 200px;
     height: 200px;
